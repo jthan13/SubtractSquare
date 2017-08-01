@@ -36,7 +36,7 @@ Project Title: SubtractSquare
 
 Project Description: SubtractSquare is a two-player strategy game. A positive whole number is randomly generated as the starting value. The player whose turn it is chooses some square of a positive whole number (such as 1, 4, 9, 16,...) to subtract from the value, provided the chosen square is not larger. After subtracting, we have a new value and the next player chooses a square to subtract from it. The game play continues to alternate between the two players until no moves are possible. Whoever is about to play at that point loses!
 
-Features: two-player mode, 30-second timer with 10-second warning countdown (timer also comes in two speeds), score board, randomly generated starting state, “forced move” is generated when an invalid move is loaded, and a mechanism that “locks” a player’s input when the timer hits zero
+Features: two-player mode, LED scoreboard, 30-second timer with 10-second warning flash countdown (timer also comes in different speeds), player’s input is “locked” when timer hits zero (which simulates the “load” key), randomly generated starting game state when “start” key is pressed, and the “forced move” generated at every game state is chosen when an invalid move is made (please read the documentation for "forced move" in LUTs.v)
 
 Video URL: https://drive.google.com/file/d/0BwLvf73ym-VgVlk5NXprMU5NRWM/view?usp=sharing
 
