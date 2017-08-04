@@ -256,7 +256,7 @@ module forced_move_LUT (game_state, move);
       8'd224: perfect_square = 8'd196; 
       8'd225: perfect_square = 8'd196;
        
-      8'd226: perfect_square = 8'd225; // Outputs 225 as the "forced move" when game_state falls between: 226 & 225. 
+      8'd226: perfect_square = 8'd225; // Outputs 225 as the "forced move" when game_state falls between: 226 & 255. 
       8'd227: perfect_square = 8'd225; 
       8'd228: perfect_square = 8'd225; 
       8'd229: perfect_square = 8'd225; 
